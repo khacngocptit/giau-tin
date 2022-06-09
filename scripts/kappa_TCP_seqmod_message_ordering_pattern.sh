@@ -81,7 +81,7 @@ for windowsize in $WINDOWSIZES; do
 		else
 			C_len=`/bin/ls -l ${TMPWORKFILE}.gz | awk '{print $5}'`
 			K=`echo "scale=6;($S_len/$C_len)" | bc`
-			echo "${flow},WinSize=${windowsize},K=${K}" >> ${TMPRESULTSFILE} # Temporary storage for results until all entries were calculated
+			echo `${flow}` # Temporary storage for results until all entries were calculated
 		fi
 		rm -f ${TMPWORKFILE} ${TMPWORKFILE}.gz
 	done

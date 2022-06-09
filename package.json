@@ -41,6 +41,7 @@
     "class-transformer": "^0.3.2",
     "class-validator": "^0.13.1",
     "crypto-js": "^4.0.0",
+    "csv-parser": "^3.0.0",
     "helmet": "^4.5.0",
     "install": "^0.13.0",
     "lodash": "^4.17.21",
